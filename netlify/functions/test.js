@@ -6,7 +6,7 @@ const { schedule } = require("@netlify/functions");
 
 const handler = async function(event, context) {
     console.log("Received event:");
-    sendMessage("schedule trigered");
+    await sendMessage("schedule trigered");
 
     return {
         statusCode: 200,
