@@ -1,7 +1,7 @@
 // YOUR_BASE_DIRECTORY/netlify/functions/test-scheduled-function.js
 const token = "5730954289:AAGDPIDwIyhae6aQwb7Y4T7_Gf6PrhyPd30";
 const chatId = "404000198";
-
+const https = require("https");
 const { schedule } = require("@netlify/functions");
 
 const handler = async function(event, context) {

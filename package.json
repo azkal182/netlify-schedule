@@ -12,6 +12,7 @@
   "dependencies": {
     "@netlify/functions": "^1.4.0",
     "axios": "^1.2.2",
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "https": "^1.0.0"
   }
 }
